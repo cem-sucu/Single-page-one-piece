@@ -40,6 +40,7 @@
   font-size: 20px;
   border-bottom: 2px solid transparent;
   padding: 10px 0px;
+  animation: myAnim 1s ease 1s 1 normal backwards;
 }
 
 
@@ -48,4 +49,15 @@
   font-size: 20px;
   border-bottom: 2px solid gold;
   background: radial-gradient(circle, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+}
+@keyframes myAnim {
+	0% {
+		opacity: 0;
+		transform: translateX(-250px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
 }
