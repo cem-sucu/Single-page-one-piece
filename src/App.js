@@ -1,17 +1,20 @@
 import "./App.css";
-import Community from "./components/Community";
+import Menu from "./components/Menu";
+import Home from "./components/Home";
 import Personnage from "./components/Personnage";
-import Tutorials from "./components/Tutorials";
-import Menu from "./Menu";
+import Ennemies from "./components/Ennemies";
+import Devil from "./components/DevilFruits";
+import { BrowserRouter, Route } from "react-router-dom";
 
 function App() {
     return (
-        <div className="App">
+        <BrowserRouter>
             <Menu />
-            <Personnage />
-            <Community />
-            <Tutorials />
-        </div>
+            <Route exact path="/" component={Home} />
+            <Route path="/personnage" component={Personnage} />
+            <Route path="/ennemi" component={Ennemies} />
+            <Route path="/fruits-du-demon" component={Devil} />
+        </BrowserRouter>
     );
 }
 

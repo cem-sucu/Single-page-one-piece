@@ -1,11 +1,11 @@
 import React from "react";
 
-const Community = () => {
+const Ennemies = () => {
     return (
         <div className="container">
-            <h1>Community</h1>
+            <h1>Ennemies</h1>
         </div>
     );
 };
 
-export default Community;
+export default Ennemies;

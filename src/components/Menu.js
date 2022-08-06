@@ -1,6 +1,7 @@
 import React from "react";
-import "./App.css";
-import logo from "./One-Piece-logo-remove.png";
+import "../App.css";
+import logo from "../One-Piece-logo-remove.png";
+import { Link, NavLink } from "react-router-dom";
 
 function Menu() {
     return (
@@ -10,24 +11,24 @@ function Menu() {
                     <img className="navlogo" src={logo} alt="logo" />
                 </li>
                 <li className="navli">
-                    <a className="nava" href="/">
+                    <Link className="nava" to="/">
                         Accueil
-                    </a>
+                    </Link>
                 </li>
                 <li className="navli">
-                    <a className="nava" href="/">
+                    <NavLink className="nava" to="/personnage">
                         Personnage
-                    </a>
+                    </NavLink>
                 </li>
                 <li className="navli">
-                    <a className="nava" href="/">
+                    <NavLink className="nava" to="/ennemi">
                         Ennemi
-                    </a>
+                    </NavLink>
                 </li>
                 <li className="navli">
-                    <a className="nava" href="/">
+                    <NavLink className="nava" to="/fruits-du-demon">
                         Fruits du démon
-                    </a>
+                    </NavLink>
                 </li>
             </ul>
         </nav>

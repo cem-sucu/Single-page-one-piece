@@ -66,3 +66,8 @@
 		transform: translateX(0);
 	}
 }
+
+.active {
+  border-bottom: 2px solid #D70C06;
+  color: #D70C06;
+}
