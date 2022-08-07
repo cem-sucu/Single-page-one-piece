@@ -1,6 +1,7 @@
 import React from "react";
 import "../App.css";
-import logo from "../One-Piece-logo-remove.png";
+import "../assets/styles/menu.css"
+import logo from "../assets/images/One-Piece-logo-remove.png";
 import { Link, NavLink } from "react-router-dom";
 
 function Menu() {

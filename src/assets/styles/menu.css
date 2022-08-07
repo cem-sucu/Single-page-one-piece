@@ -1,0 +1,69 @@
+
+.nav {
+    width: 100%;
+    margin: 0 auto;
+    background-color: aliceblue;
+    position: sticky;
+    top: 0px;
+  }
+  
+  .navbar {
+    text-decoration: none;
+    background: rgb(131, 58, 180);
+  
+  }
+  
+  .navlogo{
+    width: 110px;
+    height: 44px;
+  }
+  
+  .navul {
+    list-style-type: none;
+  }
+  
+  .navul::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .navli {
+    float: left;
+    width: 20%;
+    text-align: center;
+  }
+  
+  .nava {
+    display: block;
+    text-decoration: none;
+    color: gold;
+    font-size: 20px;
+    border-bottom: 2px solid transparent;
+    padding: 10px 0px;
+    animation: myAnim 1s ease 1s 1 normal backwards;
+  }
+  
+  
+  .nava:hover {
+    color: whitesmoke;
+    font-size: 20px;
+    border-bottom: 2px solid gold;
+    background: radial-gradient(circle, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+  }
+  @keyframes myAnim {
+      0% {
+          opacity: 0;
+          transform: translateX(-250px);
+      }
+  
+      100% {
+          opacity: 1;
+          transform: translateX(0);
+      }
+  }
+  
+  .active {
+    border-bottom: 2px solid #D70C06;
+    color: #D70C06;
+  }
