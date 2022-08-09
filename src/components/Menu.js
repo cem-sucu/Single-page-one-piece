@@ -31,6 +31,11 @@ function Menu() {
                         Fruits du démon
                     </NavLink>
                 </li>
+                <li className="navli">
+                    <NavLink className="nava" to="/îles-céleste">
+                        île
+                    </NavLink>
+                </li>
             </ul>
         </nav>
     );

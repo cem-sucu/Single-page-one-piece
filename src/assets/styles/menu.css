@@ -30,7 +30,7 @@
   
   .navli {
     float: left;
-    width: 20%;
+    width: 16.66%;
     text-align: center;
   }
   
@@ -38,7 +38,7 @@
     display: block;
     text-decoration: none;
     color: gold;
-    font-size: 20px;
+    font-size: 24px;
     border-bottom: 2px solid transparent;
     padding: 10px 0px;
     animation: myAnim 1s ease 1s 1 normal backwards;
@@ -47,7 +47,7 @@
   
   .nava:hover {
     color: whitesmoke;
-    font-size: 20px;
+    font-size: 23.5px;
     border-bottom: 2px solid gold;
     background: radial-gradient(circle, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
   }
