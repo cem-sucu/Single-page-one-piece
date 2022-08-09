@@ -3,7 +3,7 @@ import React from "react";
 const Ennemies = () => {
     return (
         <div className="container">
-            <h1>Ennemies</h1>
+            <h2>Ennemies</h2>
         </div>
     );
 };

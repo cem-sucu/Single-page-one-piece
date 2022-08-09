@@ -1,4 +1,4 @@
-export const perso = [
+export const persoData = [
     {
         id:1,
         name:"Mugiwara",
@@ -16,7 +16,7 @@ export const perso = [
         name:"Roronoa",
         surname:"Zoro",
         age:28,
-        devilFruit:"épéiste à 3 sabres",
+        devilFruit:null,
         haki:"Haki des Rois",
         rank:"Second du capitaine",
         picture:" ",
