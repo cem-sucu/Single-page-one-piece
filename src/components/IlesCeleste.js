@@ -9,7 +9,10 @@ const IlesCeleste = (props) => {
         <div className="container">
             <div className="alert-build">
                 <strong>Cette page est en construction ....</strong>
-                <p>Vous serez redirigé vers la page d'acceuil dans 5 secondes</p>
+                <p>
+                    Vous serez redirigé vers la page d'acceuil dans quelques
+                    secondes
+                </p>
             </div>
         </div>
     );
