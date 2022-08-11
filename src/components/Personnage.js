@@ -12,6 +12,7 @@ import brook from "../assets/images/brook.jpg";
 import franky from "../assets/images/franky.jpg";
 
 const Personnage = (props) => {
+    console.log(props.name);
     console.log(persoData[0].name);
 
     return (
