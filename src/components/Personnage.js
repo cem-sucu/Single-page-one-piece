@@ -1,15 +1,15 @@
 import React from "react";
 import "../assets/styles/personnage.css";
 import persoData from "../data/persoData";
-import luffy from "../assets/images/luffy.jpg";
-import zorro from "../assets/images/zoro.jpg";
-import nami from "../assets/images/nami.jpg";
-import sanji from "../assets/images/sanji.jpg";
-import ussop from "../assets/images/ussop.jpg";
-import chopper from "../assets/images/chopper.jpg";
-import robin from "../assets/images/robin.jpg";
-import brook from "../assets/images/brook.jpg";
-import franky from "../assets/images/franky.jpg";
+import luffy from "../assets/images/personnage/luffy.jpg";
+import zorro from "../assets/images/personnage/zoro.jpg";
+import nami from "../assets/images/personnage/nami.jpg";
+import sanji from "../assets/images/personnage/sanji.jpg";
+import ussop from "../assets/images/personnage/ussop.jpg";
+import chopper from "../assets/images/personnage/chopper.jpg";
+import robin from "../assets/images/personnage/robin.jpg";
+import brook from "../assets/images/personnage/brook.jpg";
+import franky from "../assets/images/personnage/franky.jpg";
 
 const Personnage = (props) => {
     console.log(props.name);

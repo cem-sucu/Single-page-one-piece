@@ -10,7 +10,7 @@ class Home extends React.Component {
         audio: new Audio(waves),
         isPlaying: false,
     };
-    //
+    //fonction pour mettre sur play ou pause en cliquant la ou l'on met le onClick
     playPause = () => {
         let isPlaying = this.state.isPlaying;
 
@@ -21,10 +21,6 @@ class Home extends React.Component {
         }
 
         this.setState({ isPlaying: !isPlaying });
-    };
-    //effets sonores vagues
-    wavesBtn = () => {
-        new Audio(waves).play();
     };
     render() {
         return (
