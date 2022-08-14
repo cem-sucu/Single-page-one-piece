@@ -133,8 +133,8 @@ const ennemiData = [
     },
     {
         id: 12,
-        name: "Charlotte",
-        surname: "Linlin",
+        name: "Big",
+        surname: "Mom",
         age: 68,
         devilFruit: "Soru Soru no Mi",
         type:"Paramecia",
