@@ -1,4 +1,5 @@
 import React from "react";
+import "../App.css";
 
 const IlesCeleste = (props) => {
     setTimeout(() => {
@@ -8,7 +9,7 @@ const IlesCeleste = (props) => {
     return (
         <div className="container">
             <div className="alert-build">
-                <strong>Cette page est en construction ....</strong>
+                <strong>Cette page est en cours de construction ....</strong>
                 <p>
                     Vous serez redirigé vers la page d'acceuil dans quelques
                     secondes
